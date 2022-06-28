@@ -27,6 +27,7 @@ export default function ButtonAppBar() {
             Task Sheet
           </Typography>
           <Link to="/" className="nav-anchor">Login</Link>
+          <Link to="/home" className="nav-anchor">Home</Link>
           <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>
